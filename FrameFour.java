@@ -10,7 +10,7 @@ class FrameFour extends JFrame implements ActionListener {
       super();
       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
       setSize( 900,900 );
-      JButton button = new JButton( "Click Me" );
+      JButton button = new JButton( "Fork Me" );
       button.addActionListener( this );
       add( button, BorderLayout.CENTER );
       Panel panel = new Panel();
@@ -58,7 +58,7 @@ class FrameFour extends JFrame implements ActionListener {
             panel.add( masculine );
             panel.revalidate();
             labelCount++;
-            break;   
+            break;  
                    
       }//end switch
       
